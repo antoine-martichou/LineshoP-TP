@@ -11,22 +11,18 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
             <div id="titre-phrase">
                 <div class="titreSite">
-                    <h2><a href=" {{ path('article') }}" class="lineshop" style="text-decoration:none">LineshoP </a></h2>
+                   <h2><a href=" {{ path('article') }}" class="lineshop" >LineshoP </a></h2>
                 </div>
                 <div class="phrase">
                     <small><em>The best online shop, for real.</em></small>
                 </div>
             </div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <div class="ml-auto panier">
-                    <div class="cadie">
-                        <a href="{{ path('panier') }}"><img src="/img/caddie.png" title="Cliquez pour voir le panier" ></a>
-                    </div>
-                <div>
-            </div>
+            <div class="ml-auto panier">
+                <div class="cadie">
+                    <a href="{{ path('panier') }}"><img src="/img/caddie.png" title="Cliquez pour voir le panier" ></a>
+                </div>
+            <div>
+            
         </nav>
 
           {% if app.user %}
